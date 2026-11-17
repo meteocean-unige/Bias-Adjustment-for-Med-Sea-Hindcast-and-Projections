@@ -1,0 +1,18 @@
+# Python dependencies for all the scripts in script_ba/
+# Install with:  pip install -r requirements.txt
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.13
+fitter>=1.7
+openpyxl         
+xarray
+netCDF4
+dask            
+xsdba
+xclim<1.0         # needed by xsdba; xclim 1.0 is not compatible with xsdba
+POT               # optimal transport library, required by xsdba dOTC
+cmocean
+jupyter           # to run multivariate_projs.ipynb
